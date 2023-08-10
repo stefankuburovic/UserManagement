@@ -1,0 +1,46 @@
+:host {
+  display: block;
+  padding: 20px;
+
+  h2 {
+    margin-bottom: 15px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #1f8433;
+
+    &:hover {
+      background-color: #1f8433;
+    }
+
+    &.cancel {
+      background-color: crimson;
+      &:hover {
+        background-color: tomato;
+      }
+    }
+
+    &[disabled] {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+  }
+  .add-user-actions {
+    justify-content: flex-end;
+  }
+
+  .mat-mdc-form-field-error {
+    font-size: 12px;
+    color: #ff3333;
+  }
+}
