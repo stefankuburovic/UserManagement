@@ -12,10 +12,9 @@ This is an Angular application for managing user data using Akita state manageme
 
 ## Tech Stack
 
-- Angular 13+
-- Akita (State Management Library)
-- RxJS
-- SCSS
+- Angular 16.2.0
+- Akita 8.1.0
+- RxJS 7.8.0
 
 ## Getting Started
 
